@@ -1,0 +1,97 @@
+.reactions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.reaction-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #666;
+}
+
+.reaction-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.reaction-btn.active {
+    color: #007bff;
+}
+
+.reaction-btn.active:hover {
+    background: rgba(0, 123, 255, 0.1);
+}
+
+.reaction-btn svg {
+    font-size: 1.2rem;
+}
+
+.reaction-btn span {
+    font-size: 0.9rem;
+}
+
+/* Dark mode styles */
+.dark-bg .reaction-btn {
+    color: #999;
+}
+
+.dark-bg .reaction-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dark-bg .reaction-btn.active {
+    color: #4da3ff;
+}
+
+.dark-bg .reaction-btn.active:hover {
+    background: rgba(77, 163, 255, 0.1);
+}
+
+/* Comment Section Styles */
+.singleBlog {
+    padding-bottom: 4rem;
+}
+
+.dark-bg .bg-white {
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.dark-bg .text-gray-700 {
+    color: #e0e0e0;
+}
+
+.dark-bg .text-gray-500 {
+    color: #a0a0a0;
+}
+
+.dark-bg textarea {
+    background-color: #2d2d2d;
+    color: #fff;
+    border-color: #404040;
+}
+
+.dark-bg textarea::placeholder {
+    color: #808080;
+}
+
+.dark-bg .bg-white.p-4 {
+    border: 1px solid #404040;
+}
+
+.mainImg {
+    width: 100%;
+    max-width: 700px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 2rem auto;
+} 
