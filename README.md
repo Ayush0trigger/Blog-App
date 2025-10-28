@@ -1,2 +1,3 @@
 # Blog-App
 MERN stack
+Developed a full-stack blogging web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) to enable users to create, manage, and engage with blog content. Implemented secure JWT-based authentication, CRUD operations for blog posts with rich text editing, real-time liking/disliking system, personalized user dashboards with analytics via Chart.js, advanced search/filter functionalities, and responsive UI with React Router and icons. Utilized Mongoose for database schemas, Cloudinary for image uploads, and Axios for API handling, ensuring scalability, modularity, and enhanced user interaction for content creators and readers.
